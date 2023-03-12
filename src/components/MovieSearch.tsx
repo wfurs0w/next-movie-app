@@ -90,7 +90,7 @@ const MovieSearch = () => {
           goToPrevPage={goToPrevPage}
           goToNextPage={goToNextPage}
           setCurrentPage={setCurrentPage}
-          searchMovies={searchMovies} // pass the searchMovies function as a prop
+          searchMovies={searchMovies}
         />
       )}
     </div>

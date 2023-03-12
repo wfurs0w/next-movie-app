@@ -24,14 +24,22 @@ const LoginPage: React.FC = () => {
           {showRegistration ? (
             <>
               Already have an account?{' '}
-              <Button variant="primary" className="link-button danger" onClick={handleToggleRegistration}>
+              <Button 
+                variant="primary" 
+                className="link-button danger" 
+                onClick={handleToggleRegistration}
+              >
                 Log in here
               </Button>
             </>
           ) : (
             <>
               Don&apos;t have an account yet?{' '}
-              <Button variant="primary" className="link-button" onClick={handleToggleRegistration}>
+              <Button 
+                variant="primary" 
+                className="link-button" 
+                onClick={handleToggleRegistration}
+              >
                 Register here
               </Button>
             </>
