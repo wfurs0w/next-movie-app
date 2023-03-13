@@ -1,5 +1,5 @@
 {
-  "homepage": "https://wfurs0w.github.io/next-movie-app",
+  "homepage": "https://wfurs0w.github.io/next-movie-app/",
   "name": "react-movie-app",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
